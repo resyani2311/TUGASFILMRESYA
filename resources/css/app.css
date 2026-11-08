@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.choices__inner,
+.choices__list--dropdown,
+.choices__list--dropdown .choices__item {
+    background-color: #1e1e2d !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+    background-color: #2c2c3c !important;
+}
+
+.choices__input {
+    background-color: #1e1e2d !important;
+    color: #ffffff !important;
+}
