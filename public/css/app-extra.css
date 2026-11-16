@@ -1,0 +1,156 @@
+/* Tambahan style untuk fitur login, profile, komentar & panel admin (di atas template OneMovies) */
+.w3l_sign_in_register { width:auto; min-width:25%; text-align:right; }
+.w3l_sign_in_register ul { margin:0; padding:0; }
+.w3l_sign_in_register ul li { display:inline-block; margin-left:6px; position:relative; }
+.w3l_sign_in_register ul li:first-child { padding-right:0; }
+.w3l_sign_in_register ul li > a { padding:6px 18px; }
+.w3l_sign_in_register .user-menu > a { max-width:230px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; vertical-align:middle; }
+.w3l_sign_in_register .user-dropdown { right:0; left:auto; text-align:left; }
+.w3l_sign_in_register .user-dropdown { background:#222; border:1px solid #444; min-width:180px; margin-top:8px; }
+.w3l_sign_in_register .user-dropdown > li { display:block; margin:0; }
+.w3l_sign_in_register .user-dropdown > li > a,
+.w3l_sign_in_register .logout-btn { display:block; width:100%; text-align:left; background:none; border:0; color:#ddd; padding:8px 18px; font-size:14px; cursor:pointer; text-transform:none; text-align:left; font-weight:normal; }
+.w3l_sign_in_register .user-dropdown > li > a:hover,
+.w3l_sign_in_register .logout-btn:hover { background:#e61e2a; color:#fff; }
+.w3l_sign_in_register .user-dropdown form { margin:0; }
+.w3l_sign_in_register .user-dropdown .divider { background:#444; margin:4px 0; }
+
+/* kartu auth & profile */
+.page-card { max-width:520px; margin:40px auto; background:#fff; border-radius:6px; padding:30px 34px; box-shadow:0 4px 18px rgba(0,0,0,.25); }
+.page-card.wide { max-width:760px; }
+.page-card h3 { margin-top:0; color:#212121; font-weight:700; }
+.page-card label { color:#555; font-weight:600; margin-top:10px; }
+.page-card .form-control { border-radius:3px; }
+.page-card .btn-red { background:#e61e2a; color:#fff; border:0; padding:9px 26px; border-radius:3px; margin-top:16px; }
+.page-card .btn-red:hover { background:#c3141f; color:#fff; }
+.page-card .hint { color:#888; margin-top:14px; font-size:13px; }
+.profile-table th { width:150px; color:#777; font-weight:600; }
+
+/* komentar */
+.comment-form { background:#2a2a2a; padding:18px; border-radius:4px; margin-bottom:24px; }
+.comment-form textarea { width:100%; background:#fff; border:1px solid #ccc; padding:10px; min-height:90px; color:#333; }
+.comment-form select { width:auto; display:inline-block; }
+.comment-form .btn-red { background:#e61e2a; color:#fff; border:0; padding:8px 24px; border-radius:3px; }
+.comment-form .notice { color:#ccc; margin:0; }
+.comment-form .notice a { color:#f5a623; }
+.kritik-item { border-bottom:1px solid #3a3a3a; padding:14px 0; overflow:hidden; }
+.kritik-item img { width:50px; height:50px; border-radius:50%; float:left; margin-right:14px; }
+.kritik-item .who { color:#fff; font-weight:700; }
+.kritik-item .when { color:#888; font-size:12px; margin-left:8px; }
+.kritik-item .stars { color:#f5a623; margin:2px 0 6px; }
+.kritik-item p { color:#ccc; margin:0; }
+.film-meta { color:#f5a623; margin:6px 0 10px; }
+.film-meta .label-genre { background:#e61e2a; color:#fff; padding:2px 9px; border-radius:3px; font-size:12px; margin-left:8px; }
+.cast-table { width:100%; border-collapse:collapse; margin-top:12px; }
+.cast-table th, .cast-table td { padding:7px 10px; border-bottom:1px solid #3a3a3a; color:#ddd; text-align:left; }
+.cast-table th { color:#f5a623; }
+.empty-note { color:#aaa; padding:20px 0; text-align:center; }
+.search-note { color:#ccc; text-align:center; margin:10px 0 20px; }
+
+/* Rekomendasi film di beranda */
+.home-recommendations .w3_agile_banner_bottom_grid { padding:16px 8px; }
+.home-recommendations #owl-demo .item { padding:0 10px 12px; box-sizing:border-box; }
+.home-recommendations .w3l-movie-gride-agile1 {
+  width:100% !important;
+  height:100%;
+  margin:0 !important;
+  padding:0;
+  float:none;
+  overflow:hidden;
+  background:#fff;
+  border-radius:4px;
+  box-shadow:0 4px 14px rgba(0,0,0,.2);
+}
+.home-recommendations .w3l-movie-gride-agile1 > a {
+  display:block;
+  width:100%;
+  overflow:hidden;
+  background:#171717;
+}
+.home-recommendations .w3l-movie-gride-agile1 > a img {
+  display:block;
+  width:100%;
+  aspect-ratio:2 / 3;
+  object-fit:cover;
+  transition:transform .25s ease, opacity .25s ease;
+}
+.home-recommendations .w3l-movie-gride-agile1 > a:hover img { transform:scale(1.03); }
+.home-recommendations .w3l-movie-gride-agile1 .mid-1 { padding:0 12px 10px; }
+.home-recommendations .w3l-movie-gride-agile1 .w3l-movie-text {
+  min-height:48px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.home-recommendations .w3l-movie-gride-agile1 .w3l-movie-text h6 {
+  width:100%;
+  margin:0;
+  line-height:1.35;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+  overflow:hidden;
+}
+.home-recommendations .w3l-movie-gride-agile1 .w3l-movie-text h6 a {
+  font-size:16px;
+}
+.home-recommendations .w3l-movie-gride-agile1 .mid-2 {
+  min-height:24px;
+}
+.home-recommendations .w3l-movie-gride-agile1 .mid-2 p { margin:0; }
+.home-recommendations .w3l-movie-gride-agile1 .block-stars { margin:0; }
+
+/* Tampilkan poster slider secara utuh, bukan diperbesar hingga terpotong. */
+#slidey .slidey-row .slidey-image {
+  background-color:#111;
+  background-position:center center !important;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+/* panel admin */
+body.admin-body { background:#1c1c1c; color:#ddd; font-family:'Roboto Condensed',Arial,sans-serif; }
+.admin-wrap { display:flex; min-height:100vh; }
+.admin-side { width:230px; background:#111; padding:20px 0; flex-shrink:0; }
+.admin-side .brand { display:block; font-size:24px; color:#fff; padding:0 22px 20px; border-bottom:1px solid #2a2a2a; text-decoration:none; }
+.admin-side .brand span { color:#e61e2a; }
+.admin-side .brand small { display:block; font-size:11px; color:#888; letter-spacing:2px; text-transform:uppercase; }
+.admin-side ul { list-style:none; margin:14px 0 0; padding:0; }
+.admin-side li a { display:block; padding:11px 22px; color:#bbb; text-decoration:none; border-left:3px solid transparent; }
+.admin-side li a i { width:22px; }
+.admin-side li a:hover, .admin-side li.active a { background:#1d1d1d; color:#fff; border-left-color:#e61e2a; }
+.admin-main { flex:1; padding:26px 32px; min-width:0; }
+.admin-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:22px; flex-wrap:wrap; gap:10px; }
+.admin-top h2 { margin:0; color:#fff; font-size:26px; }
+.admin-top .who { color:#999; font-size:14px; }
+.admin-top .who a { color:#f5a623; }
+.panel-dark { background:#262626; border-radius:5px; padding:20px; margin-bottom:22px; }
+.panel-dark h4 { margin-top:0; color:#fff; }
+.stat-grid { display:flex; flex-wrap:wrap; gap:16px; margin-bottom:22px; }
+.stat-card { flex:1 1 150px; background:#262626; border-radius:5px; padding:18px 20px; border-top:3px solid #e61e2a; text-decoration:none; display:block; }
+.stat-card i { font-size:26px; color:#e61e2a; float:right; }
+.stat-card .num { font-size:32px; color:#fff; font-weight:700; line-height:1.1; }
+.stat-card .lbl { color:#999; text-transform:uppercase; font-size:12px; letter-spacing:1px; }
+.table-dark-x { width:100%; color:#ddd; }
+.table-dark-x th { background:#1a1a1a; color:#f5a623; padding:10px 12px; text-align:left; font-weight:600; white-space:nowrap; }
+.table-dark-x td { padding:10px 12px; border-bottom:1px solid #333; vertical-align:middle; }
+.table-dark-x tr:hover td { background:#2d2d2d; }
+.table-dark-x img.thumb { width:44px; height:62px; object-fit:cover; border-radius:2px; }
+.table-wrap { overflow-x:auto; }
+.admin-main .btn-red { background:#e61e2a; color:#fff; border:0; }
+.admin-main .btn-red:hover { background:#c3141f; color:#fff; }
+.admin-main .form-control { background:#1a1a1a; border:1px solid #444; color:#eee; }
+.admin-main .form-control:focus { border-color:#e61e2a; box-shadow:none; }
+.admin-main label { color:#ccc; margin-top:8px; }
+.admin-main .help-block, .admin-main .text-danger { font-size:13px; }
+.admin-main .pagination > li > a, .admin-main .pagination > li > span { background:#262626; border-color:#3a3a3a; color:#ddd; }
+.admin-main .pagination > .active > span { background:#e61e2a; border-color:#e61e2a; color:#fff; }
+.admin-main .pagination > .disabled > span { background:#1f1f1f; color:#666; }
+.badge-role { padding:3px 10px; border-radius:10px; font-size:12px; }
+.badge-role.admin { background:#e61e2a; color:#fff; }
+.badge-role.user { background:#3a3a3a; color:#ddd; }
+.toolbar { display:flex; justify-content:space-between; gap:10px; margin-bottom:16px; flex-wrap:wrap; }
+.toolbar form { display:flex; gap:6px; }
+.toolbar form .form-control { width:240px; }
+.form-poster { max-width:150px; margin-top:8px; border-radius:3px; }
+@media (max-width:768px){ .admin-wrap{flex-direction:column;} .admin-side{width:100%;} .admin-side ul{display:flex;flex-wrap:wrap;} .admin-main{padding:18px 14px;} }
